@@ -2,11 +2,11 @@
 let LastPos = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
 function setup() {
-    creatCanvas(500, 400);
+    createCanvas(500, 400);
+    background(145, 242, 255);
 }
 
 function draw() {
-    background();
     LastPos.push(mouseX);
     LastPos.shift();
 
