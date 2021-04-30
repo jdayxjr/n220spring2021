@@ -1,5 +1,4 @@
 var myCircle = {
-    r: 15,
     x: 20,
     y: 30,
     color: [156, 0, 250]
@@ -13,7 +12,8 @@ function setup() {
 
 
 function draw() {
+
     fill(myCircle.color);
     myCircle.x += 2;
-    xCircle(myCircle.x, myCircle.y, myCircle.r);
+    circle(myCircle.x, myCircle.y, 15);
 }
