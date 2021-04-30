@@ -13,7 +13,7 @@ function setup() {
 
 
 function draw() {
-    Fill(myCircle.color);
+    fill(myCircle.color);
     myCircle.x += 2;
     xCircle(myCircle.x, myCircle.y, myCircle.r);
 }

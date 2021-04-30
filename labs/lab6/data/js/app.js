@@ -12,6 +12,6 @@ function setup() {
 
 
 function draw() {
-    Fill(myCircle.color);
+    fill(myCircle.color);
     circle(myCircle.x, myCircle.y, myCircle.r);
 }
