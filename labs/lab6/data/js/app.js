@@ -13,5 +13,5 @@ function setup() {
 
 function draw() {
     Fill(myCircle.color)
-    circle(myCircle.x, myCircle.y, myCircle.r)
+    circle(myCircle.x, myCircle.y, myCircle.r);
 }
