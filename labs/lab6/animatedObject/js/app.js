@@ -2,7 +2,7 @@ var myCircle = {
     r: 15,
     x: 20,
     y: 30,
-    color: [156, 0, 250],
+    color: [156, 0, 250]
 
 }
 
