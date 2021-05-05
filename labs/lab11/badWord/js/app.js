@@ -1,4 +1,4 @@
-let txtExample = document.getElementById("txtExample");
+let Word = document.getElementById("Word");
 
 let badWords = ["clear", "water", "tires"];
 
@@ -9,7 +9,7 @@ function findWord() {
 
     for (let count = 0; count < badWords.length; count++) {
         if (badWords[count] == lookingfor) {
-            console.log("found it at " + count);
+            dvFound.innerHTML = "found " + count;
         }
 
 
