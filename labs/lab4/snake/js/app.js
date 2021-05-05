@@ -3,7 +3,7 @@ let LastPos = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
 function setup() {
     createCanvas(500, 400);
-    background(145, 242, 255);
+    background(193, 202, 214);
 }
 
 function draw() {
